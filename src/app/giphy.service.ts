@@ -14,7 +14,7 @@ export class GiphyService{
     search(searchTerm: string, limit = 3, offset = 0) : Promise<Giphy[]> {
         const param = new HttpParams()
             .set('q', searchTerm)
-            .set('api_key', '7cf49b91cbac420198483abde27d622f')
+            .set('api_key', 'TaSiJI9RonmsKUCReiyfn50Du4PXvJRf')
             .set('limit', '3')
             .set('offset', "" + offset)
 
